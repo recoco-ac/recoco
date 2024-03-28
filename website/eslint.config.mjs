@@ -87,6 +87,7 @@ export default [
 
   // Practices
 
+  ...compat.extends("plugin:@docusaurus/all"),
   reactRecommended,
   jsxRuntime,
   {

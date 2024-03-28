@@ -1,4 +1,16 @@
 {
+  "home.header.getStarted": {
+    "message": "用户指引 — 5 分钟上手 ⏱️"
+  },
+  "home.features.1.description": {
+    "message": "Recoco 核心特性【一】"
+  },
+  "home.features.2.description": {
+    "message": "Recoco 核心特性【二】"
+  },
+  "home.features.3.description": {
+    "message": "Recoco 核心特性【三】"
+  },
   "theme.ErrorPageContent.title": {
     "message": "页面已崩溃",
     "description": "The title of the fallback page when the page crashed"

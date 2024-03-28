@@ -15,6 +15,7 @@
  */
 
 import Link from "@docusaurus/Link";
+import Translate from "@docusaurus/Translate";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import HomepageFeatures from "@site/src/components/homepage-features";
 import Heading from "@theme/Heading";
@@ -36,7 +37,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <Link className="button button--secondary button--lg" to="/docs/guide">
-          User Guide - 5min ⏱️
+          <Translate id="home.header.getStarted"/>
         </Link>
       </div>
     </header>

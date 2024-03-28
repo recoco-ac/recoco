@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+import Translate from "@docusaurus/Translate";
 import logoDark from "@site/static/img/logo-dark.svg";
 import logoLight from "@site/static/img/logo-light.svg";
 import Heading from "@theme/Heading";
@@ -30,40 +31,30 @@ const features: FeatureItem[] = [
     title: "Feature 1",
     Svg: logoLight,
     description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-        ultricies mi nec elit pretium porta. Ut pellentesque mollis magna et
-        molestie.
-      </>
+      <Translate id="home.features.1.description"/>
     ),
   },
   {
     title: "Feature 2",
     Svg: logoDark,
     description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet erat
-        vitae posuere congue.
-      </>
+      <Translate id="home.features.2.description"/>
     ),
   },
   {
     title: "Feature 3",
     Svg: logoLight,
     description: (
-      <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dui
-        tortor, porta nec ullamcorper eget, pulvinar sed nunc.
-      </>
+      <Translate id="home.features.3.description"/>
     ),
   },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({title, Svg, description}: FeatureItem) {
   return (
     <div className="col">
       <div className="text-center">
-        <Svg className="size-[200px]" role="img" />
+        <Svg className="size-[200px]" role="img"/>
       </div>
       <div className="px-4 text-center">
         <Heading as="h3">{title}</Heading>
